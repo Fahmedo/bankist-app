@@ -61,7 +61,7 @@ const account3 = {
     "2023-01-25T18:49:59.371Z",
     "2023-02-26T12:01:20.894Z",
   ],
-  currency: "NG",
+  currency: "NGN",
   locale: "en-NG",
 };
 const account4 = {
@@ -80,7 +80,7 @@ const account4 = {
     "2023-01-25T18:49:59.371Z",
     "2023-02-26T12:01:20.894Z",
   ],
-  currency: "NG",
+  currency: "NGN",
   locale: "en-NG",
 };
 
