@@ -45,8 +45,46 @@ const account2 = {
   currency: "USD",
   locale: "en-US",
 };
+const account3 = {
+  owner: "Faruq Ahmed",
+  movements: [600, 5200, -150, -490, -2310, -1000, 7600, -300],
+  interestRate: 1.5,
+  pin: 3333,
 
-const accounts = [account1, account2];
+  movementsDates: [
+    "2022-11-01T13:15:33.035Z",
+    "2022-12-30T09:48:16.867Z",
+    "2022-12-25T06:04:23.907Z",
+    "2022-12-25T14:18:46.235Z",
+    "2023-01-05T16:33:06.386Z",
+    "2023-01-10T14:43:26.374Z",
+    "2023-01-25T18:49:59.371Z",
+    "2023-02-26T12:01:20.894Z",
+  ],
+  currency: "NG",
+  locale: "en-NG",
+};
+const account4 = {
+  owner: "Benard Simon",
+  movements: [1100, 3400, -450, -690, -4910, -3400, 9800, -700],
+  interestRate: 1.5,
+  pin: 4444,
+
+  movementsDates: [
+    "2022-11-01T13:15:33.035Z",
+    "2022-12-30T09:48:16.867Z",
+    "2022-12-25T06:04:23.907Z",
+    "2022-12-25T14:18:46.235Z",
+    "2023-01-05T16:33:06.386Z",
+    "2023-01-10T14:43:26.374Z",
+    "2023-01-25T18:49:59.371Z",
+    "2023-02-26T12:01:20.894Z",
+  ],
+  currency: "NG",
+  locale: "en-NG",
+};
+
+const accounts = [account1, account2, account3, account4];
 
 /////////////////////////////////////////////////
 // Elements
@@ -199,7 +237,7 @@ const startLogoutTimer = function () {
       clearInterval(timer);
       labelWelcome.textContent = "Log in to get started";
       containerApp.style.opacity = 0;
-      loginField.style.opacity = 100;
+      loginField.style.display = "flex";
       homePage.style.display = "block";
     }
 
