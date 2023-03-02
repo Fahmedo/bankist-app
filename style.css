@@ -336,6 +336,12 @@ h2 {
   .logo {
     height: 5.25rem;
   }
+  .login__input {
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1.3rem;
+    width: 10rem;
+  }
   .login__btn {
     margin: 4rem 0 0 4rem;
     position: absolute;
